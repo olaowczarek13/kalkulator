@@ -1,33 +1,126 @@
-#calculator {
-    width: 400px;
-    height: 470px;
-    background-color: palevioletred;
-    padding: 10px;
-    border-radius: 20px;
-    border: 3px solid #b55675;
+body {
+	background-image: url(img/pink.png);
+	background-repeat: no-repeat;
+	background-position: top center;
+	margin-top: 157px;
+
 }
 
-#results{
-    text-align: center
-    
+#calculator {
+	width: 380px;
+	height: 500px;
+	margin-left: auto;
+	margin-right: auto;
+
+	background-image: linear-gradient(to bottom, rgba(244, 183, 194, 1) 0%, rgba(187, 95, 124, 1) 49%, rgba(181, 86, 117, 0.9) 54%, rgba(181, 86, 117, 0) 100%);
+	padding: 10px;
+	border-radius: 20px;
+	border: 3px solid #b55675;
+	position: relative;
+
 }
+
+#nav {
+	color: white;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 12px;
+	font-size: 36px;
+	text-align: left;
+	font-family: 'Damion', cursive;
+
+}
+
+#close {
+	font-size: 26px;
+	width: 36px;
+	height: 36px;
+	background-color: #f4b7c2;
+	font-family: 'Ubuntu', sans-serif;
+	border-radius: 5px;
+	color: white;
+	float: right;
+	margin: 10px;
+	margin-top: 7px;
+}
+
 
 .inputStyl {
-    width: 98%;
-    height: 120px;
-    border-radius: 20px;
-    background-color: whitesmoke
+	width: 92%; 
+	height: 120px;
+	font-size: 64px;
+	font-family: 'Ubuntu', sans-serif;
+	text-align: right;
+	display: block;
+	padding-right: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 25px;
+	background-image: linear-gradient(to bottom right, white, lightgrey);
+	box-shadow: inset -3px -3px 10px #9c969d;
 }
-.button{
-    width: 17%;
-    margin: 4px;
-    height: 60px;
-    font-size: 30px;
-    border-radius: 15px;
-    background-color: #a04563;
-    color: white;
-     
+
+.raz {
+	text-align: center;
 }
-raz{
-    
+
+.dwa {
+	text-align: center;
+}
+
+.trzy {
+	text-align: left;
+	margin-left: 2px;
+}
+
+.cztery {
+	text-align: left;
+	margin-left: 3px;
+
+}
+
+.button {
+	width: 16%;
+	margin: 6px;
+	height: 60px;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 40px;
+	border-radius: 15px;
+	background-color: #a04563;
+	color: white;
+}
+
+.button:hover {
+	cursor: pointer;
+	background-color: #892e4c;
+	box-shadow: 5px 5px 12px #643f4b;
+}
+.buttondark:hover {
+	cursor: pointer;
+	background-color: #892e4c;
+	box-shadow: 5px 5px 12px #643f4b;
+}
+
+.buttondark {
+	width: 16%;
+	margin: 6px;
+	height: 60px;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 40px;
+	border-radius: 15px;
+	background-color: #7b3149;
+	color: white;}
+
+
+
+#b0 {
+	width: 137px;
+}
+
+#brownasie {
+	height: 133px;
+	position: absolute;
+	left: 316px;
+	bottom: 2%;
+
 }
